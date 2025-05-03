@@ -1,11 +1,7 @@
-body {
+{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
 h1{
-    display: inline-block;
     border: rgb(224, 22, 22) dashed 5px;
     margin: 30px 0 30px 0;
     padding: 30px;
@@ -25,7 +21,6 @@ footer{
     color: #ffffff;
     padding: 15px;
     font-size: 18px;
-
 }
 .produto-item{
     color:red;
