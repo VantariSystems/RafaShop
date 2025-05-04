@@ -33,15 +33,6 @@ function somenteNumeros(n){
 function formatarValor(n){
     return 'R$ ' + n.toLocaleString('pt-BR')
 }
-function limparCarrinho() {
-    for (let i = 1; i < 4; i++) {
-        document.getElementById('qtd_' + i).innerHTML = 0;
-        document.getElementById('total_' + i).innerHTML = formatarValor(0);
-    }
-    document.getElementById('subtotal').innerHTML = formatarValor(0);
-    alert("Carrinho limpo com sucesso!");
-}
-
 
 
 function finalizarCompra() {
