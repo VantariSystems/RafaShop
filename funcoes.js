@@ -78,7 +78,8 @@ function finalizarCompra() {
         document.getElementById('nomeCliente').value = ""; // Limpa o campo de nome
         document.getElementById('subtotal').innerHTML = formatarValor(0); // Limpa o subtotal
     }
-       function limparCarrinho() {
+       
+        function limparCarrinho() {
             for (let i = 1; i <= 3; i++) {
                 document.getElementById('qtd_' + i).innerHTML = 0;
                 document.getElementById('total_' + i).innerHTML = 'R$ 0,00';
